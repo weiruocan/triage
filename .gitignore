@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+
+# 数据（用户自行下载或生成）
+data/models/
+data/trajectories/trajectory_db_v2.sqlite
+data/security_monitor.db
+
+# 保留示例数据
+!data/example_trajectories.db
+
+# 实验数据（可重现）
+docs/experiments/*/results/
+
+# 系统
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# 论文（发表后贴地址）
+docs/paper/
+docs/*.pdf

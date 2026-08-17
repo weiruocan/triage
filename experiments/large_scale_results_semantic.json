@@ -1,0 +1,1938 @@
+{
+  "experiment": "TRIAGE 237 full semantic comparison",
+  "date": "2026-08-14 16:55:21",
+  "total_queries": 237,
+  "config": {
+    "model": "deepseek-v4-flash",
+    "encoder": "all-MiniLM-L6-v2",
+    "l1_threshold": 0.9,
+    "l2_threshold": 0.65
+  },
+  "baseline": {
+    "total_tokens": 127095,
+    "real_60_tokens": 32176,
+    "estimated_177_tokens": 94919,
+    "avg_tokens_per_query": 536.3,
+    "real_api_calls": 60
+  },
+  "triage": {
+    "total_tokens": 57007,
+    "api_calls": 145,
+    "level_distribution": {
+      "l1": 92,
+      "l2": 118,
+      "l3": 27
+    },
+    "level_success": {
+      "l1": 92,
+      "l2": 118,
+      "l3": 27
+    }
+  },
+  "token_savings": {
+    "baseline": 127095,
+    "triage": 57007,
+    "saved": 70088,
+    "saved_pct": 55.1,
+    "theoretical_savings": 87304,
+    "theoretical_pct": 68.7
+  },
+  "results": [
+    {
+      "query": "Analyze the alarm event distribution by time of day",
+      "level": "3_new",
+      "best_match_score": 0.0,
+      "success": true,
+      "error": null,
+      "elapsed": 3.78
+    },
+    {
+      "query": "Compare alarm counts across different alarm types",
+      "level": "3_new",
+      "best_match_score": 0.5855,
+      "success": true,
+      "error": null,
+      "elapsed": 3.57
+    },
+    {
+      "query": "Compare device deployment between perimeter and main building",
+      "level": "3_new",
+      "best_match_score": 0.1859,
+      "success": true,
+      "error": null,
+      "elapsed": 8.76
+    },
+    {
+      "query": "Compare online rate of cameras between Area A and Area B",
+      "level": "3_new",
+      "best_match_score": 0.3382,
+      "success": true,
+      "error": null,
+      "elapsed": 5.42
+    },
+    {
+      "query": "Compare the alarm frequency between Area A and Area B",
+      "level": "2_edit",
+      "best_match_score": 0.6525,
+      "success": true,
+      "error": null,
+      "elapsed": 2.47
+    },
+    {
+      "query": "Compare the alarm frequency between daytime and nighttime",
+      "level": "2_edit",
+      "best_match_score": 0.6739,
+      "success": true,
+      "error": null,
+      "elapsed": 2.71
+    },
+    {
+      "query": "Compare the false alarm rates among different sensor types",
+      "level": "2_edit",
+      "best_match_score": 0.6931,
+      "success": true,
+      "error": null,
+      "elapsed": 4.72
+    },
+    {
+      "query": "Compare the online rate of cameras and electronic pulse sensors",
+      "level": "2_edit",
+      "best_match_score": 0.6816,
+      "success": true,
+      "error": null,
+      "elapsed": 4.1
+    },
+    {
+      "query": "Compare the online rate of cameras and vibration fibers",
+      "level": "2_edit",
+      "best_match_score": 0.7276,
+      "success": true,
+      "error": null,
+      "elapsed": 3.2
+    },
+    {
+      "query": "Compare the online rate of vibration fibers and electronic pulse sensors",
+      "level": "2_edit",
+      "best_match_score": 0.7428,
+      "success": true,
+      "error": null,
+      "elapsed": 2.38
+    },
+    {
+      "query": "How many alarms are still unresolved?",
+      "level": "3_new",
+      "best_match_score": 0.4763,
+      "success": true,
+      "error": null,
+      "elapsed": 4.98
+    },
+    {
+      "query": "How many alarms occurred between 2025-11-01 and 2025-11-15?",
+      "level": "2_edit",
+      "best_match_score": 0.7161,
+      "success": true,
+      "error": null,
+      "elapsed": 2.29
+    },
+    {
+      "query": "How many alarms occurred between 2025-11-16 and 2025-11-30?",
+      "level": "1_direct",
+      "best_match_score": 0.9785,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "How many cameras are deployed in each region?",
+      "level": "3_new",
+      "best_match_score": 0.5158,
+      "success": true,
+      "error": null,
+      "elapsed": 3.34
+    },
+    {
+      "query": "How many cameras are in Area A?",
+      "level": "2_edit",
+      "best_match_score": 0.8105,
+      "success": true,
+      "error": null,
+      "elapsed": 2.05
+    },
+    {
+      "query": "How many cameras are in Area B?",
+      "level": "2_edit",
+      "best_match_score": 0.8999,
+      "success": true,
+      "error": null,
+      "elapsed": 2.08
+    },
+    {
+      "query": "How many cameras are in Area C?",
+      "level": "2_edit",
+      "best_match_score": 0.8961,
+      "success": true,
+      "error": null,
+      "elapsed": 1.91
+    },
+    {
+      "query": "How many cameras are in Area D?",
+      "level": "1_direct",
+      "best_match_score": 0.9009,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "How many cameras are in Area E?",
+      "level": "2_edit",
+      "best_match_score": 0.885,
+      "success": true,
+      "error": null,
+      "elapsed": 1.58
+    },
+    {
+      "query": "How many cameras are in Equipment Area?",
+      "level": "2_edit",
+      "best_match_score": 0.8637,
+      "success": true,
+      "error": null,
+      "elapsed": 4.39
+    },
+    {
+      "query": "How many cameras are in Main Building?",
+      "level": "2_edit",
+      "best_match_score": 0.768,
+      "success": true,
+      "error": null,
+      "elapsed": 2.32
+    },
+    {
+      "query": "How many cameras are in Parking Lot?",
+      "level": "2_edit",
+      "best_match_score": 0.7625,
+      "success": true,
+      "error": null,
+      "elapsed": 2.26
+    },
+    {
+      "query": "How many cameras are in Perimeter?",
+      "level": "2_edit",
+      "best_match_score": 0.8187,
+      "success": true,
+      "error": null,
+      "elapsed": 2.07
+    },
+    {
+      "query": "How many cameras are in Warehouse?",
+      "level": "2_edit",
+      "best_match_score": 0.8026,
+      "success": true,
+      "error": null,
+      "elapsed": 2.16
+    },
+    {
+      "query": "How many electronic pulse sensors are deployed in each region?",
+      "level": "3_new",
+      "best_match_score": 0.5876,
+      "success": true,
+      "error": null,
+      "elapsed": 5.41
+    },
+    {
+      "query": "How many electronic pulse sensors are in Area A?",
+      "level": "1_direct",
+      "best_match_score": 0.9064,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "How many electronic pulse sensors are in Area B?",
+      "level": "1_direct",
+      "best_match_score": 0.9381,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "How many electronic pulse sensors are in Area C?",
+      "level": "1_direct",
+      "best_match_score": 0.9369,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "How many electronic pulse sensors are in Area D?",
+      "level": "1_direct",
+      "best_match_score": 0.9326,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "How many electronic pulse sensors are in Area E?",
+      "level": "1_direct",
+      "best_match_score": 0.9364,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "How many electronic pulse sensors are in Equipment Area?",
+      "level": "1_direct",
+      "best_match_score": 0.9415,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "How many electronic pulse sensors are in Main Building?",
+      "level": "2_edit",
+      "best_match_score": 0.8722,
+      "success": true,
+      "error": null,
+      "elapsed": 2.36
+    },
+    {
+      "query": "How many electronic pulse sensors are in Parking Lot?",
+      "level": "2_edit",
+      "best_match_score": 0.7819,
+      "success": true,
+      "error": null,
+      "elapsed": 2.06
+    },
+    {
+      "query": "How many electronic pulse sensors are in Perimeter?",
+      "level": "1_direct",
+      "best_match_score": 0.9032,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "How many electronic pulse sensors are in Warehouse?",
+      "level": "2_edit",
+      "best_match_score": 0.8879,
+      "success": true,
+      "error": null,
+      "elapsed": 2.76
+    },
+    {
+      "query": "How many vibration fibers are deployed in each region?",
+      "level": "3_new",
+      "best_match_score": 0.59,
+      "success": true,
+      "error": null,
+      "elapsed": 2.21
+    },
+    {
+      "query": "How many vibration fibers are in Area A?",
+      "level": "2_edit",
+      "best_match_score": 0.8762,
+      "success": true,
+      "error": null,
+      "elapsed": 3.95
+    },
+    {
+      "query": "How many vibration fibers are in Area B?",
+      "level": "1_direct",
+      "best_match_score": 0.9427,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "How many vibration fibers are in Area C?",
+      "level": "1_direct",
+      "best_match_score": 0.9337,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "How many vibration fibers are in Area D?",
+      "level": "1_direct",
+      "best_match_score": 0.928,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "How many vibration fibers are in Area E?",
+      "level": "1_direct",
+      "best_match_score": 0.9172,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "How many vibration fibers are in Equipment Area?",
+      "level": "2_edit",
+      "best_match_score": 0.8924,
+      "success": true,
+      "error": null,
+      "elapsed": 1.97
+    },
+    {
+      "query": "How many vibration fibers are in Main Building?",
+      "level": "2_edit",
+      "best_match_score": 0.8381,
+      "success": true,
+      "error": null,
+      "elapsed": 2.62
+    },
+    {
+      "query": "How many vibration fibers are in Parking Lot?",
+      "level": "2_edit",
+      "best_match_score": 0.7365,
+      "success": true,
+      "error": null,
+      "elapsed": 2.19
+    },
+    {
+      "query": "How many vibration fibers are in Perimeter?",
+      "level": "2_edit",
+      "best_match_score": 0.8681,
+      "success": true,
+      "error": null,
+      "elapsed": 3.3
+    },
+    {
+      "query": "How many vibration fibers are in Warehouse?",
+      "level": "2_edit",
+      "best_match_score": 0.8686,
+      "success": true,
+      "error": null,
+      "elapsed": 2.63
+    },
+    {
+      "query": "List alarm events for cameras in Area A last month",
+      "level": "3_new",
+      "best_match_score": 0.5884,
+      "success": true,
+      "error": null,
+      "elapsed": 5.27
+    },
+    {
+      "query": "List alarm events for cameras in Area B last month",
+      "level": "1_direct",
+      "best_match_score": 0.9432,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List alarm events for cameras in Perimeter last month",
+      "level": "1_direct",
+      "best_match_score": 0.9468,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List alarm events for electronic pulse sensors in Area A last month",
+      "level": "2_edit",
+      "best_match_score": 0.7847,
+      "success": true,
+      "error": null,
+      "elapsed": 2.76
+    },
+    {
+      "query": "List alarm events for electronic pulse sensors in Area B last month",
+      "level": "1_direct",
+      "best_match_score": 0.9434,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List alarm events for electronic pulse sensors in Perimeter last month",
+      "level": "1_direct",
+      "best_match_score": 0.9597,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List alarm events for vibration fibers in Area A last month",
+      "level": "2_edit",
+      "best_match_score": 0.7505,
+      "success": true,
+      "error": null,
+      "elapsed": 2.35
+    },
+    {
+      "query": "List alarm events for vibration fibers in Area B last month",
+      "level": "1_direct",
+      "best_match_score": 0.9585,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List alarm events for vibration fibers in Perimeter last month",
+      "level": "1_direct",
+      "best_match_score": 0.9569,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List devices that have been offline for more than 12 hours",
+      "level": "3_new",
+      "best_match_score": 0.4301,
+      "success": true,
+      "error": null,
+      "elapsed": 10.34
+    },
+    {
+      "query": "List devices that have been offline for more than 2 hours",
+      "level": "1_direct",
+      "best_match_score": 0.986,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List devices that have been offline for more than 24 hours",
+      "level": "1_direct",
+      "best_match_score": 0.9826,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List devices that have been offline for more than 48 hours",
+      "level": "1_direct",
+      "best_match_score": 0.9873,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List devices that have been offline for more than 6 hours",
+      "level": "1_direct",
+      "best_match_score": 0.9853,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List the 3 most frequently triggered cameras",
+      "level": "3_new",
+      "best_match_score": 0.647,
+      "success": true,
+      "error": null,
+      "elapsed": 6.25
+    },
+    {
+      "query": "List the 3 most frequently triggered electronic pulse sensors",
+      "level": "2_edit",
+      "best_match_score": 0.7186,
+      "success": true,
+      "error": null,
+      "elapsed": 4.99
+    },
+    {
+      "query": "List the 3 most frequently triggered vibration fibers",
+      "level": "2_edit",
+      "best_match_score": 0.7189,
+      "success": true,
+      "error": null,
+      "elapsed": 6.88
+    },
+    {
+      "query": "List the 5 most frequently triggered cameras",
+      "level": "1_direct",
+      "best_match_score": 0.9743,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List the 5 most frequently triggered electronic pulse sensors",
+      "level": "1_direct",
+      "best_match_score": 0.9717,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List the 5 most frequently triggered vibration fibers",
+      "level": "1_direct",
+      "best_match_score": 0.9779,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List the abnormal intrusion events in Area A",
+      "level": "3_new",
+      "best_match_score": 0.5093,
+      "success": true,
+      "error": null,
+      "elapsed": 7.48
+    },
+    {
+      "query": "List the abnormal intrusion events in Area B",
+      "level": "1_direct",
+      "best_match_score": 0.9413,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List the abnormal intrusion events in Perimeter",
+      "level": "2_edit",
+      "best_match_score": 0.8619,
+      "success": true,
+      "error": null,
+      "elapsed": 4.0
+    },
+    {
+      "query": "List the area intrusion events in Area A",
+      "level": "1_direct",
+      "best_match_score": 0.9266,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List the area intrusion events in Area B",
+      "level": "1_direct",
+      "best_match_score": 0.9404,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List the area intrusion events in Perimeter",
+      "level": "1_direct",
+      "best_match_score": 0.9205,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List the cross-border alarm events in Area A",
+      "level": "2_edit",
+      "best_match_score": 0.7163,
+      "success": true,
+      "error": null,
+      "elapsed": 3.39
+    },
+    {
+      "query": "List the cross-border alarm events in Area B",
+      "level": "1_direct",
+      "best_match_score": 0.9458,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List the cross-border alarm events in Perimeter",
+      "level": "1_direct",
+      "best_match_score": 0.9304,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List the online status of all camera devices",
+      "level": "3_new",
+      "best_match_score": 0.589,
+      "success": true,
+      "error": null,
+      "elapsed": 3.36
+    },
+    {
+      "query": "List the online status of all electronic pulse sensor devices",
+      "level": "2_edit",
+      "best_match_score": 0.7322,
+      "success": true,
+      "error": null,
+      "elapsed": 3.62
+    },
+    {
+      "query": "List the online status of all vibration fiber devices",
+      "level": "2_edit",
+      "best_match_score": 0.7071,
+      "success": true,
+      "error": null,
+      "elapsed": 2.95
+    },
+    {
+      "query": "List the sensor deployment in the perimeter area",
+      "level": "3_new",
+      "best_match_score": 0.5832,
+      "success": true,
+      "error": null,
+      "elapsed": 6.84
+    },
+    {
+      "query": "List the sensor distribution by region",
+      "level": "2_edit",
+      "best_match_score": 0.6833,
+      "success": true,
+      "error": null,
+      "elapsed": 2.12
+    },
+    {
+      "query": "List the top 10 most frequent alarm locations",
+      "level": "3_new",
+      "best_match_score": 0.6463,
+      "success": true,
+      "error": null,
+      "elapsed": 4.65
+    },
+    {
+      "query": "List the vibration fiber event events in Area A",
+      "level": "2_edit",
+      "best_match_score": 0.7597,
+      "success": true,
+      "error": null,
+      "elapsed": 2.95
+    },
+    {
+      "query": "List the vibration fiber event events in Area B",
+      "level": "1_direct",
+      "best_match_score": 0.9603,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List the vibration fiber event events in Perimeter",
+      "level": "2_edit",
+      "best_match_score": 0.8964,
+      "success": true,
+      "error": null,
+      "elapsed": 2.79
+    },
+    {
+      "query": "List the zone alarm events in Area A",
+      "level": "2_edit",
+      "best_match_score": 0.8277,
+      "success": true,
+      "error": null,
+      "elapsed": 2.19
+    },
+    {
+      "query": "List the zone alarm events in Area B",
+      "level": "1_direct",
+      "best_match_score": 0.9442,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List the zone alarm events in Perimeter",
+      "level": "1_direct",
+      "best_match_score": 0.9074,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "List the zone alarm events in cameras area",
+      "level": "2_edit",
+      "best_match_score": 0.8475,
+      "success": true,
+      "error": null,
+      "elapsed": 2.01
+    },
+    {
+      "query": "List the zone alarm events in electronic pulse sensors area",
+      "level": "2_edit",
+      "best_match_score": 0.8227,
+      "success": true,
+      "error": null,
+      "elapsed": 2.45
+    },
+    {
+      "query": "List the zone alarm events in vibration fibers area",
+      "level": "2_edit",
+      "best_match_score": 0.8477,
+      "success": true,
+      "error": null,
+      "elapsed": 6.13
+    },
+    {
+      "query": "Show all alarm events in Area A last month",
+      "level": "2_edit",
+      "best_match_score": 0.8354,
+      "success": true,
+      "error": null,
+      "elapsed": 5.18
+    },
+    {
+      "query": "Show all alarm events in Area B last month",
+      "level": "1_direct",
+      "best_match_score": 0.9316,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show all alarm events in Area C last month",
+      "level": "1_direct",
+      "best_match_score": 0.9272,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show all alarm events in Area D last month",
+      "level": "1_direct",
+      "best_match_score": 0.9511,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show all alarm events in Area E last month",
+      "level": "1_direct",
+      "best_match_score": 0.9607,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show all alarm events in Equipment Area last month",
+      "level": "1_direct",
+      "best_match_score": 0.9206,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show all alarm events in Main Building last month",
+      "level": "1_direct",
+      "best_match_score": 0.9112,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show all alarm events in Parking Lot last month",
+      "level": "2_edit",
+      "best_match_score": 0.8602,
+      "success": true,
+      "error": null,
+      "elapsed": 3.2
+    },
+    {
+      "query": "Show all alarm events in Perimeter last month",
+      "level": "1_direct",
+      "best_match_score": 0.9114,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show all alarm events in Warehouse last month",
+      "level": "2_edit",
+      "best_match_score": 0.8614,
+      "success": true,
+      "error": null,
+      "elapsed": 2.77
+    },
+    {
+      "query": "Show devices installed in November 2025",
+      "level": "3_new",
+      "best_match_score": 0.479,
+      "success": true,
+      "error": null,
+      "elapsed": 2.04
+    },
+    {
+      "query": "Show devices installed in October 2025",
+      "level": "1_direct",
+      "best_match_score": 0.975,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show devices installed in September 2025",
+      "level": "1_direct",
+      "best_match_score": 0.9667,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show me the online rate trend by device type",
+      "level": "3_new",
+      "best_match_score": 0.4913,
+      "success": true,
+      "error": null,
+      "elapsed": 7.79
+    },
+    {
+      "query": "Show offline events in Area A",
+      "level": "3_new",
+      "best_match_score": 0.5494,
+      "success": true,
+      "error": null,
+      "elapsed": 5.63
+    },
+    {
+      "query": "Show offline events in Area B",
+      "level": "1_direct",
+      "best_match_score": 0.9358,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show offline events in Area C",
+      "level": "1_direct",
+      "best_match_score": 0.909,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show offline events in Perimeter",
+      "level": "2_edit",
+      "best_match_score": 0.8263,
+      "success": true,
+      "error": null,
+      "elapsed": 2.81
+    },
+    {
+      "query": "Show the alarm closure rate by device type",
+      "level": "3_new",
+      "best_match_score": 0.5975,
+      "success": true,
+      "error": null,
+      "elapsed": 8.32
+    },
+    {
+      "query": "Show the alarm distribution by device type",
+      "level": "2_edit",
+      "best_match_score": 0.7845,
+      "success": true,
+      "error": null,
+      "elapsed": 3.16
+    },
+    {
+      "query": "Show the alarm events trend over the past month",
+      "level": "2_edit",
+      "best_match_score": 0.8412,
+      "success": true,
+      "error": null,
+      "elapsed": 6.71
+    },
+    {
+      "query": "Show the alarm handling status distribution",
+      "level": "2_edit",
+      "best_match_score": 0.7181,
+      "success": true,
+      "error": null,
+      "elapsed": 2.21
+    },
+    {
+      "query": "Show the cameras in Area A that were offline more than 3 times",
+      "level": "3_new",
+      "best_match_score": 0.6251,
+      "success": true,
+      "error": null,
+      "elapsed": 9.3
+    },
+    {
+      "query": "Show the cameras in Area B that were offline more than 3 times",
+      "level": "1_direct",
+      "best_match_score": 0.9449,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show the cameras in Perimeter that were offline more than 3 times",
+      "level": "1_direct",
+      "best_match_score": 0.9172,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show the correlation between device online rate and alarm frequency",
+      "level": "2_edit",
+      "best_match_score": 0.6787,
+      "success": true,
+      "error": null,
+      "elapsed": 12.43
+    },
+    {
+      "query": "Show the cross-region comparison of alarm event counts",
+      "level": "2_edit",
+      "best_match_score": 0.7434,
+      "success": true,
+      "error": null,
+      "elapsed": 4.12
+    },
+    {
+      "query": "Show the daily alarm count per device type",
+      "level": "2_edit",
+      "best_match_score": 0.7321,
+      "success": true,
+      "error": null,
+      "elapsed": 2.36
+    },
+    {
+      "query": "Show the daily alarm trend for cameras in November 2025",
+      "level": "2_edit",
+      "best_match_score": 0.7892,
+      "success": true,
+      "error": null,
+      "elapsed": 5.73
+    },
+    {
+      "query": "Show the daily alarm trend for electronic pulse sensors in November 2025",
+      "level": "2_edit",
+      "best_match_score": 0.8115,
+      "success": true,
+      "error": null,
+      "elapsed": 2.93
+    },
+    {
+      "query": "Show the daily alarm trend for vibration fibers in November 2025",
+      "level": "2_edit",
+      "best_match_score": 0.828,
+      "success": true,
+      "error": null,
+      "elapsed": 2.68
+    },
+    {
+      "query": "Show the deployment density of cameras across regions",
+      "level": "2_edit",
+      "best_match_score": 0.7421,
+      "success": true,
+      "error": null,
+      "elapsed": 5.01
+    },
+    {
+      "query": "Show the deployment density of electronic pulse sensors across regions",
+      "level": "2_edit",
+      "best_match_score": 0.7542,
+      "success": true,
+      "error": null,
+      "elapsed": 2.67
+    },
+    {
+      "query": "Show the deployment density of vibration fibers across regions",
+      "level": "2_edit",
+      "best_match_score": 0.7757,
+      "success": true,
+      "error": null,
+      "elapsed": 7.4
+    },
+    {
+      "query": "Show the electronic pulse sensors in Area A that were offline more than 3 times",
+      "level": "2_edit",
+      "best_match_score": 0.6695,
+      "success": true,
+      "error": null,
+      "elapsed": 4.13
+    },
+    {
+      "query": "Show the electronic pulse sensors in Area B that were offline more than 3 times",
+      "level": "1_direct",
+      "best_match_score": 0.9445,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show the electronic pulse sensors in Perimeter that were offline more than 3 times",
+      "level": "1_direct",
+      "best_match_score": 0.9357,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show the offline ranking of all devices",
+      "level": "3_new",
+      "best_match_score": 0.6466,
+      "success": true,
+      "error": null,
+      "elapsed": 11.83
+    },
+    {
+      "query": "Show the online rate of cameras in Area A",
+      "level": "2_edit",
+      "best_match_score": 0.8481,
+      "success": true,
+      "error": null,
+      "elapsed": 2.94
+    },
+    {
+      "query": "Show the online rate of cameras in Area B",
+      "level": "1_direct",
+      "best_match_score": 0.9381,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show the online rate of cameras in Main Building",
+      "level": "2_edit",
+      "best_match_score": 0.8638,
+      "success": true,
+      "error": null,
+      "elapsed": 3.27
+    },
+    {
+      "query": "Show the online rate of cameras in Perimeter",
+      "level": "2_edit",
+      "best_match_score": 0.8952,
+      "success": true,
+      "error": null,
+      "elapsed": 2.38
+    },
+    {
+      "query": "Show the online rate of electronic pulse sensors in Area A",
+      "level": "2_edit",
+      "best_match_score": 0.7946,
+      "success": true,
+      "error": null,
+      "elapsed": 9.46
+    },
+    {
+      "query": "Show the online rate of electronic pulse sensors in Area B",
+      "level": "1_direct",
+      "best_match_score": 0.9476,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show the online rate of electronic pulse sensors in Main Building",
+      "level": "2_edit",
+      "best_match_score": 0.8648,
+      "success": true,
+      "error": null,
+      "elapsed": 3.33
+    },
+    {
+      "query": "Show the online rate of electronic pulse sensors in Perimeter",
+      "level": "1_direct",
+      "best_match_score": 0.9138,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show the online rate of vibration fibers in Area A",
+      "level": "2_edit",
+      "best_match_score": 0.7437,
+      "success": true,
+      "error": null,
+      "elapsed": 2.71
+    },
+    {
+      "query": "Show the online rate of vibration fibers in Area B",
+      "level": "1_direct",
+      "best_match_score": 0.9574,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show the online rate of vibration fibers in Main Building",
+      "level": "2_edit",
+      "best_match_score": 0.8309,
+      "success": true,
+      "error": null,
+      "elapsed": 2.22
+    },
+    {
+      "query": "Show the online rate of vibration fibers in Perimeter",
+      "level": "2_edit",
+      "best_match_score": 0.8866,
+      "success": true,
+      "error": null,
+      "elapsed": 5.0
+    },
+    {
+      "query": "Show the top 10 devices with most alarm events",
+      "level": "2_edit",
+      "best_match_score": 0.7363,
+      "success": true,
+      "error": null,
+      "elapsed": 2.98
+    },
+    {
+      "query": "Show the top 10 offline devices",
+      "level": "2_edit",
+      "best_match_score": 0.8419,
+      "success": true,
+      "error": null,
+      "elapsed": 5.69
+    },
+    {
+      "query": "Show the top 3 devices with most alarm events",
+      "level": "1_direct",
+      "best_match_score": 0.9608,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show the top 3 offline devices",
+      "level": "1_direct",
+      "best_match_score": 0.9227,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show the top 5 alarm events by severity in Area A",
+      "level": "2_edit",
+      "best_match_score": 0.7688,
+      "success": true,
+      "error": null,
+      "elapsed": 3.75
+    },
+    {
+      "query": "Show the top 5 devices with most alarm events",
+      "level": "1_direct",
+      "best_match_score": 0.9774,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show the top 5 offline devices",
+      "level": "1_direct",
+      "best_match_score": 0.9519,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show the triggering count of cameras",
+      "level": "2_edit",
+      "best_match_score": 0.6808,
+      "success": true,
+      "error": null,
+      "elapsed": 2.86
+    },
+    {
+      "query": "Show the triggering count of electronic pulse sensors",
+      "level": "2_edit",
+      "best_match_score": 0.6987,
+      "success": true,
+      "error": null,
+      "elapsed": 6.22
+    },
+    {
+      "query": "Show the triggering count of vibration fibers",
+      "level": "2_edit",
+      "best_match_score": 0.6994,
+      "success": true,
+      "error": null,
+      "elapsed": 6.48
+    },
+    {
+      "query": "Show the vibration fibers in Area A that were offline more than 3 times",
+      "level": "2_edit",
+      "best_match_score": 0.8211,
+      "success": true,
+      "error": null,
+      "elapsed": 2.97
+    },
+    {
+      "query": "Show the vibration fibers in Area B that were offline more than 3 times",
+      "level": "1_direct",
+      "best_match_score": 0.9566,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show the vibration fibers in Perimeter that were offline more than 3 times",
+      "level": "1_direct",
+      "best_match_score": 0.9006,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Show the weekly alarm pattern for the past month",
+      "level": "2_edit",
+      "best_match_score": 0.8374,
+      "success": true,
+      "error": null,
+      "elapsed": 4.53
+    },
+    {
+      "query": "What are the top 10 sensors with the lowest online rate?",
+      "level": "3_new",
+      "best_match_score": 0.632,
+      "success": true,
+      "error": null,
+      "elapsed": 12.25
+    },
+    {
+      "query": "What are the top 3 sensors with the lowest online rate?",
+      "level": "1_direct",
+      "best_match_score": 0.9671,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What are the top 5 sensors with the lowest online rate?",
+      "level": "1_direct",
+      "best_match_score": 0.9832,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the average handling time for abnormal intrusion?",
+      "level": "3_new",
+      "best_match_score": 0.603,
+      "success": true,
+      "error": null,
+      "elapsed": 16.5
+    },
+    {
+      "query": "What is the average handling time for area intrusion?",
+      "level": "2_edit",
+      "best_match_score": 0.8836,
+      "success": true,
+      "error": null,
+      "elapsed": 3.26
+    },
+    {
+      "query": "What is the average handling time for cross-border alarm?",
+      "level": "3_new",
+      "best_match_score": 0.6337,
+      "success": true,
+      "error": null,
+      "elapsed": 15.3
+    },
+    {
+      "query": "What is the average handling time for vibration fiber event?",
+      "level": "2_edit",
+      "best_match_score": 0.6501,
+      "success": true,
+      "error": null,
+      "elapsed": 2.57
+    },
+    {
+      "query": "What is the average handling time for zone alarm?",
+      "level": "2_edit",
+      "best_match_score": 0.8201,
+      "success": true,
+      "error": null,
+      "elapsed": 2.52
+    },
+    {
+      "query": "What is the average offline duration per device type?",
+      "level": "3_new",
+      "best_match_score": 0.6189,
+      "success": true,
+      "error": null,
+      "elapsed": 10.82
+    },
+    {
+      "query": "What is the average response time for alarms in Area A?",
+      "level": "2_edit",
+      "best_match_score": 0.8057,
+      "success": true,
+      "error": null,
+      "elapsed": 4.53
+    },
+    {
+      "query": "What is the average response time for alarms in Area B?",
+      "level": "1_direct",
+      "best_match_score": 0.9397,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the average response time for alarms in Perimeter?",
+      "level": "1_direct",
+      "best_match_score": 0.92,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the average triggering frequency of cameras per day?",
+      "level": "2_edit",
+      "best_match_score": 0.6796,
+      "success": true,
+      "error": null,
+      "elapsed": 6.27
+    },
+    {
+      "query": "What is the average triggering frequency of electronic pulse sensors per day?",
+      "level": "2_edit",
+      "best_match_score": 0.7703,
+      "success": true,
+      "error": null,
+      "elapsed": 4.19
+    },
+    {
+      "query": "What is the average triggering frequency of vibration fibers per day?",
+      "level": "2_edit",
+      "best_match_score": 0.7487,
+      "success": true,
+      "error": null,
+      "elapsed": 4.08
+    },
+    {
+      "query": "What is the hourly distribution of security alarm events?",
+      "level": "2_edit",
+      "best_match_score": 0.7838,
+      "success": true,
+      "error": null,
+      "elapsed": 2.58
+    },
+    {
+      "query": "What is the installation time distribution of sensors?",
+      "level": "3_new",
+      "best_match_score": 0.5422,
+      "success": true,
+      "error": null,
+      "elapsed": 5.32
+    },
+    {
+      "query": "What is the online rate of cameras deployed in Area A?",
+      "level": "2_edit",
+      "best_match_score": 0.8314,
+      "success": true,
+      "error": null,
+      "elapsed": 3.37
+    },
+    {
+      "query": "What is the online rate of cameras deployed in Area B?",
+      "level": "1_direct",
+      "best_match_score": 0.9387,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of cameras deployed in Main Building?",
+      "level": "1_direct",
+      "best_match_score": 0.9023,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of cameras deployed in Perimeter?",
+      "level": "1_direct",
+      "best_match_score": 0.9235,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of cameras?",
+      "level": "2_edit",
+      "best_match_score": 0.8728,
+      "success": true,
+      "error": null,
+      "elapsed": 2.73
+    },
+    {
+      "query": "What is the online rate of electronic pulse sensors deployed in Area A?",
+      "level": "2_edit",
+      "best_match_score": 0.8449,
+      "success": true,
+      "error": null,
+      "elapsed": 3.33
+    },
+    {
+      "query": "What is the online rate of electronic pulse sensors deployed in Area B?",
+      "level": "1_direct",
+      "best_match_score": 0.945,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of electronic pulse sensors deployed in Main Building?",
+      "level": "1_direct",
+      "best_match_score": 0.9251,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of electronic pulse sensors deployed in Perimeter?",
+      "level": "1_direct",
+      "best_match_score": 0.9415,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of electronic pulse sensors?",
+      "level": "1_direct",
+      "best_match_score": 0.9234,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of sensors in Area A?",
+      "level": "2_edit",
+      "best_match_score": 0.8649,
+      "success": true,
+      "error": null,
+      "elapsed": 3.63
+    },
+    {
+      "query": "What is the online rate of sensors in Area B?",
+      "level": "1_direct",
+      "best_match_score": 0.933,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of sensors in Area C?",
+      "level": "1_direct",
+      "best_match_score": 0.9265,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of sensors in Area D?",
+      "level": "1_direct",
+      "best_match_score": 0.9406,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of sensors in Area E?",
+      "level": "1_direct",
+      "best_match_score": 0.9428,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of sensors in Equipment Area?",
+      "level": "1_direct",
+      "best_match_score": 0.9371,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of sensors in Main Building?",
+      "level": "2_edit",
+      "best_match_score": 0.8699,
+      "success": true,
+      "error": null,
+      "elapsed": 4.31
+    },
+    {
+      "query": "What is the online rate of sensors in Parking Lot?",
+      "level": "2_edit",
+      "best_match_score": 0.8092,
+      "success": true,
+      "error": null,
+      "elapsed": 2.5
+    },
+    {
+      "query": "What is the online rate of sensors in Perimeter?",
+      "level": "2_edit",
+      "best_match_score": 0.8885,
+      "success": true,
+      "error": null,
+      "elapsed": 2.89
+    },
+    {
+      "query": "What is the online rate of sensors in Warehouse?",
+      "level": "2_edit",
+      "best_match_score": 0.8874,
+      "success": true,
+      "error": null,
+      "elapsed": 3.6
+    },
+    {
+      "query": "What is the online rate of vibration fibers deployed in Area A?",
+      "level": "2_edit",
+      "best_match_score": 0.8352,
+      "success": true,
+      "error": null,
+      "elapsed": 3.47
+    },
+    {
+      "query": "What is the online rate of vibration fibers deployed in Area B?",
+      "level": "1_direct",
+      "best_match_score": 0.955,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of vibration fibers deployed in Main Building?",
+      "level": "1_direct",
+      "best_match_score": 0.9121,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of vibration fibers deployed in Perimeter?",
+      "level": "1_direct",
+      "best_match_score": 0.9228,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the online rate of vibration fibers?",
+      "level": "1_direct",
+      "best_match_score": 0.916,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the overall online rate of security devices?",
+      "level": "2_edit",
+      "best_match_score": 0.6763,
+      "success": true,
+      "error": null,
+      "elapsed": 5.91
+    },
+    {
+      "query": "What is the peak time for security alarm events?",
+      "level": "2_edit",
+      "best_match_score": 0.8335,
+      "success": true,
+      "error": null,
+      "elapsed": 3.17
+    },
+    {
+      "query": "What is the total alarm count for abnormal intrusion?",
+      "level": "2_edit",
+      "best_match_score": 0.7077,
+      "success": true,
+      "error": null,
+      "elapsed": 2.79
+    },
+    {
+      "query": "What is the total alarm count for area intrusion?",
+      "level": "1_direct",
+      "best_match_score": 0.908,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "What is the total alarm count for cross-border alarm?",
+      "level": "2_edit",
+      "best_match_score": 0.7733,
+      "success": true,
+      "error": null,
+      "elapsed": 2.13
+    },
+    {
+      "query": "What is the total alarm count for vibration fiber event?",
+      "level": "2_edit",
+      "best_match_score": 0.7654,
+      "success": true,
+      "error": null,
+      "elapsed": 5.38
+    },
+    {
+      "query": "What is the total alarm count for zone alarm?",
+      "level": "2_edit",
+      "best_match_score": 0.802,
+      "success": true,
+      "error": null,
+      "elapsed": 3.13
+    },
+    {
+      "query": "Which 5 areas have the highest alarm frequency?",
+      "level": "2_edit",
+      "best_match_score": 0.8013,
+      "success": true,
+      "error": null,
+      "elapsed": 2.6
+    },
+    {
+      "query": "Which alarm type occurred most frequently?",
+      "level": "2_edit",
+      "best_match_score": 0.7287,
+      "success": true,
+      "error": null,
+      "elapsed": 2.42
+    },
+    {
+      "query": "Which area has the most offline devices?",
+      "level": "2_edit",
+      "best_match_score": 0.6562,
+      "success": true,
+      "error": null,
+      "elapsed": 2.44
+    },
+    {
+      "query": "Which areas have the highest device online rate?",
+      "level": "2_edit",
+      "best_match_score": 0.7953,
+      "success": true,
+      "error": null,
+      "elapsed": 3.16
+    },
+    {
+      "query": "Which camera in Area A has the highest false alarm rate?",
+      "level": "2_edit",
+      "best_match_score": 0.6647,
+      "success": true,
+      "error": null,
+      "elapsed": 5.28
+    },
+    {
+      "query": "Which camera in Area B has the highest false alarm rate?",
+      "level": "1_direct",
+      "best_match_score": 0.9467,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Which camera in Perimeter has the highest false alarm rate?",
+      "level": "1_direct",
+      "best_match_score": 0.9298,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Which cameras have the highest offline rate?",
+      "level": "2_edit",
+      "best_match_score": 0.7679,
+      "success": true,
+      "error": null,
+      "elapsed": 4.61
+    },
+    {
+      "query": "Which device type has the lowest online rate?",
+      "level": "2_edit",
+      "best_match_score": 0.8239,
+      "success": true,
+      "error": null,
+      "elapsed": 3.56
+    },
+    {
+      "query": "Which device type has the most consistent performance?",
+      "level": "3_new",
+      "best_match_score": 0.631,
+      "success": true,
+      "error": null,
+      "elapsed": 9.71
+    },
+    {
+      "query": "Which electronic pulse sensor in Area A has the highest false alarm rate?",
+      "level": "2_edit",
+      "best_match_score": 0.7748,
+      "success": true,
+      "error": null,
+      "elapsed": 2.97
+    },
+    {
+      "query": "Which electronic pulse sensor in Area B has the highest false alarm rate?",
+      "level": "1_direct",
+      "best_match_score": 0.9516,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Which electronic pulse sensor in Perimeter has the highest false alarm rate?",
+      "level": "1_direct",
+      "best_match_score": 0.954,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Which electronic pulse sensors have the highest offline rate?",
+      "level": "2_edit",
+      "best_match_score": 0.805,
+      "success": true,
+      "error": null,
+      "elapsed": 3.89
+    },
+    {
+      "query": "Which operator handled the most alarm events?",
+      "level": "2_edit",
+      "best_match_score": 0.7243,
+      "success": true,
+      "error": null,
+      "elapsed": 2.56
+    },
+    {
+      "query": "Which region has the most cameras installed?",
+      "level": "2_edit",
+      "best_match_score": 0.8116,
+      "success": true,
+      "error": null,
+      "elapsed": 3.07
+    },
+    {
+      "query": "Which region has the most electronic pulse sensors installed?",
+      "level": "2_edit",
+      "best_match_score": 0.8385,
+      "success": true,
+      "error": null,
+      "elapsed": 2.35
+    },
+    {
+      "query": "Which region has the most vibration fibers installed?",
+      "level": "2_edit",
+      "best_match_score": 0.8112,
+      "success": true,
+      "error": null,
+      "elapsed": 2.35
+    },
+    {
+      "query": "Which sensors are deployed in Area A and what is their online status?",
+      "level": "2_edit",
+      "best_match_score": 0.6998,
+      "success": true,
+      "error": null,
+      "elapsed": 2.15
+    },
+    {
+      "query": "Which sensors are deployed in Area B and what is their online status?",
+      "level": "1_direct",
+      "best_match_score": 0.9205,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Which sensors are deployed in Area C and what is their online status?",
+      "level": "1_direct",
+      "best_match_score": 0.9136,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Which sensors are deployed in Area D and what is their online status?",
+      "level": "1_direct",
+      "best_match_score": 0.9179,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Which sensors are deployed in Area E and what is their online status?",
+      "level": "1_direct",
+      "best_match_score": 0.9147,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Which sensors are deployed in Equipment Area and what is their online status?",
+      "level": "1_direct",
+      "best_match_score": 0.9377,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Which sensors are deployed in Main Building and what is their online status?",
+      "level": "2_edit",
+      "best_match_score": 0.8943,
+      "success": true,
+      "error": null,
+      "elapsed": 2.97
+    },
+    {
+      "query": "Which sensors are deployed in Parking Lot and what is their online status?",
+      "level": "2_edit",
+      "best_match_score": 0.8164,
+      "success": true,
+      "error": null,
+      "elapsed": 2.15
+    },
+    {
+      "query": "Which sensors are deployed in Perimeter and what is their online status?",
+      "level": "2_edit",
+      "best_match_score": 0.8697,
+      "success": true,
+      "error": null,
+      "elapsed": 2.24
+    },
+    {
+      "query": "Which sensors are deployed in Warehouse and what is their online status?",
+      "level": "2_edit",
+      "best_match_score": 0.8923,
+      "success": true,
+      "error": null,
+      "elapsed": 2.4
+    },
+    {
+      "query": "Which sensors have the most offline occurrences?",
+      "level": "2_edit",
+      "best_match_score": 0.7427,
+      "success": true,
+      "error": null,
+      "elapsed": 3.85
+    },
+    {
+      "query": "Which vibration fiber in Area A has the highest false alarm rate?",
+      "level": "2_edit",
+      "best_match_score": 0.7685,
+      "success": true,
+      "error": null,
+      "elapsed": 5.96
+    },
+    {
+      "query": "Which vibration fiber in Area B has the highest false alarm rate?",
+      "level": "1_direct",
+      "best_match_score": 0.954,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Which vibration fiber in Perimeter has the highest false alarm rate?",
+      "level": "1_direct",
+      "best_match_score": 0.9321,
+      "success": true,
+      "error": null,
+      "elapsed": 0.0
+    },
+    {
+      "query": "Which vibration fibers have the highest offline rate?",
+      "level": "2_edit",
+      "best_match_score": 0.8155,
+      "success": true,
+      "error": null,
+      "elapsed": 4.72
+    },
+    {
+      "query": "Which zone has the highest density of vibration fiber sensors?",
+      "level": "2_edit",
+      "best_match_score": 0.7956,
+      "success": true,
+      "error": null,
+      "elapsed": 4.51
+    }
+  ]
+}

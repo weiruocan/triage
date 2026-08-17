@@ -1,0 +1,14 @@
+{
+  "weather": {
+    "count": 10,
+    "avg_trajectory_length": 4.0
+  },
+  "search": {
+    "count": 10,
+    "avg_trajectory_length": 4.8
+  },
+  "jokes": {
+    "count": 10,
+    "avg_trajectory_length": 4.6
+  }
+}

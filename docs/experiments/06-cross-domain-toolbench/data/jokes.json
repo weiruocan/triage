@@ -1,0 +1,362 @@
+[
+  {
+    "query": "I'm planning a family gathering and I want to make everyone laugh. Fetch a random manatee joke, a Chuck Norris joke, and a dad joke for the occasion. Also, provide a list of available joke categories ",
+    "tools": [
+      "random_for_manatee_jokes",
+      "get_by_id_for_manatee_jokes",
+      "find_all_for_manatee_jokes",
+      "jokes_categories_for_chuck_norris",
+      "jokes_random_for_chuck_norris"
+    ],
+    "trajectory": [
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: random_for_manatee_jokes\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "random_for_manatee_jokes",
+        "content": "{\"error\": \"\", \"response\": \"{\\\"id\\\":9,\\\"setup\\\":\\\"What is AC/DC number one hit undersea?\\\",\\\"punchline\\\":\\\"ManaTNT\\\",\\\"createdAt\\\":\\\"2020-12-23T19:40:08.000Z\\\",\\\"updatedAt\\\":\\\"2020-12-23T19:40:08.000Z\\\"}\"}"
+      }
+    ],
+    "trajectory_length": 2
+  },
+  {
+    "query": "I'm planning a family gathering and I want to make everyone laugh. Fetch a random manatee joke, a Chuck Norris joke, and a dad joke for the occasion. Also, provide a list of available joke categories ",
+    "tools": [
+      "random_for_manatee_jokes",
+      "get_by_id_for_manatee_jokes",
+      "find_all_for_manatee_jokes",
+      "jokes_categories_for_chuck_norris",
+      "jokes_random_for_chuck_norris"
+    ],
+    "trajectory": [
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: random_for_manatee_jokes\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "random_for_manatee_jokes",
+        "content": "{\"error\": \"\", \"response\": \"{\\\"id\\\":9,\\\"setup\\\":\\\"What is AC/DC number one hit undersea?\\\",\\\"punchline\\\":\\\"ManaTNT\\\",\\\"createdAt\\\":\\\"2020-12-23T19:40:08.000Z\\\",\\\"updatedAt\\\":\\\"2020-12-23T19:40:08.000Z\\\"}\"}"
+      },
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: jokes_random_for_chuck_norris\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "jokes_random_for_chuck_norris",
+        "content": "{\"error\": \"\", \"response\": \"{\\\"categories\\\":[],\\\"created_at\\\":\\\"2020-01-05 13:42:28.143137\\\",\\\"icon_url\\\":\\\"https://assets.chucknorris.host/img/avatar/chuck-norris.png\\\",\\\"id\\\":\\\"w1QcOOGdStm9Wz27-AKCIw\\\",\\\"updated_at\\\":\\\"2020-01-05 13:42:28.143137\\\",\\\"url\\\":\\\"https://api.chucknorris.io/jokes/w1QcOOGd"
+      }
+    ],
+    "trajectory_length": 4
+  },
+  {
+    "query": "I'm planning a family gathering and I want to make everyone laugh. Fetch a random manatee joke, a Chuck Norris joke, and a dad joke for the occasion. Also, provide a list of available joke categories ",
+    "tools": [
+      "random_for_manatee_jokes",
+      "get_by_id_for_manatee_jokes",
+      "find_all_for_manatee_jokes",
+      "jokes_categories_for_chuck_norris",
+      "jokes_random_for_chuck_norris"
+    ],
+    "trajectory": [
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: random_for_manatee_jokes\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "random_for_manatee_jokes",
+        "content": "{\"error\": \"\", \"response\": \"{\\\"id\\\":9,\\\"setup\\\":\\\"What is AC/DC number one hit undersea?\\\",\\\"punchline\\\":\\\"ManaTNT\\\",\\\"createdAt\\\":\\\"2020-12-23T19:40:08.000Z\\\",\\\"updatedAt\\\":\\\"2020-12-23T19:40:08.000Z\\\"}\"}"
+      },
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: jokes_random_for_chuck_norris\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "jokes_random_for_chuck_norris",
+        "content": "{\"error\": \"\", \"response\": \"{\\\"categories\\\":[],\\\"created_at\\\":\\\"2020-01-05 13:42:28.143137\\\",\\\"icon_url\\\":\\\"https://assets.chucknorris.host/img/avatar/chuck-norris.png\\\",\\\"id\\\":\\\"w1QcOOGdStm9Wz27-AKCIw\\\",\\\"updated_at\\\":\\\"2020-01-05 13:42:28.143137\\\",\\\"url\\\":\\\"https://api.chucknorris.io/jokes/w1QcOOGd"
+      },
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: random_for_daddyjokes\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "random_for_daddyjokes",
+        "content": "{\"error\": \"\", \"response\": \"{'success': True, 'joke': 'How does a non-binary samurai kill people? They/Them. '}\"}"
+      }
+    ],
+    "trajectory_length": 6
+  },
+  {
+    "query": "I'm planning a family gathering and I want to make everyone laugh. Fetch a random manatee joke, a Chuck Norris joke, and a dad joke for the occasion. Also, provide a list of available joke categories ",
+    "tools": [
+      "random_for_manatee_jokes",
+      "get_by_id_for_manatee_jokes",
+      "find_all_for_manatee_jokes",
+      "jokes_categories_for_chuck_norris",
+      "jokes_random_for_chuck_norris"
+    ],
+    "trajectory": [
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: random_for_manatee_jokes\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "random_for_manatee_jokes",
+        "content": "{\"error\": \"\", \"response\": \"{\\\"id\\\":9,\\\"setup\\\":\\\"What is AC/DC number one hit undersea?\\\",\\\"punchline\\\":\\\"ManaTNT\\\",\\\"createdAt\\\":\\\"2020-12-23T19:40:08.000Z\\\",\\\"updatedAt\\\":\\\"2020-12-23T19:40:08.000Z\\\"}\"}"
+      },
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: jokes_random_for_chuck_norris\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "jokes_random_for_chuck_norris",
+        "content": "{\"error\": \"\", \"response\": \"{\\\"categories\\\":[],\\\"created_at\\\":\\\"2020-01-05 13:42:28.143137\\\",\\\"icon_url\\\":\\\"https://assets.chucknorris.host/img/avatar/chuck-norris.png\\\",\\\"id\\\":\\\"w1QcOOGdStm9Wz27-AKCIw\\\",\\\"updated_at\\\":\\\"2020-01-05 13:42:28.143137\\\",\\\"url\\\":\\\"https://api.chucknorris.io/jokes/w1QcOOGd"
+      },
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: random_for_daddyjokes\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "random_for_daddyjokes",
+        "content": "{\"error\": \"\", \"response\": \"{'success': True, 'joke': 'How does a non-binary samurai kill people? They/Them. '}\"}"
+      },
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: jokes_categories_for_chuck_norris\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "jokes_categories_for_chuck_norris",
+        "content": "{\"error\": \"\", \"response\": \"[\\\"animal\\\",\\\"career\\\",\\\"celebrity\\\",\\\"dev\\\",\\\"explicit\\\",\\\"fashion\\\",\\\"food\\\",\\\"history\\\",\\\"money\\\",\\\"movie\\\",\\\"music\\\",\\\"political\\\",\\\"religion\\\",\\\"science\\\",\\\"sport\\\",\\\"travel\\\"]\"}"
+      }
+    ],
+    "trajectory_length": 8
+  },
+  {
+    "query": "I need the exchange rate from EUR to GBP. Additionally, retrieve a comment from Deezer with the id '5555' and a trivia fact about the year 2022.\nBegin!",
+    "tools": [
+      "listquotes_for_currency_exchange",
+      "exchange_for_currency_exchange",
+      "editorial_for_deezer",
+      "comment_for_deezer",
+      "playlist_for_deezer"
+    ],
+    "trajectory": [
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: listquotes_for_currency_exchange\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "listquotes_for_currency_exchange",
+        "content": "{\"error\": \"\", \"response\": \"[\\\"SGD\\\",\\\"MYR\\\",\\\"EUR\\\",\\\"USD\\\",\\\"AUD\\\",\\\"JPY\\\",\\\"CNH\\\",\\\"HKD\\\",\\\"CAD\\\",\\\"INR\\\",\\\"DKK\\\",\\\"GBP\\\",\\\"RUB\\\",\\\"NZD\\\",\\\"MXN\\\",\\\"IDR\\\",\\\"TWD\\\",\\\"THB\\\",\\\"VND\\\"]\"}"
+      }
+    ],
+    "trajectory_length": 2
+  },
+  {
+    "query": "I need the exchange rate from EUR to GBP. Additionally, retrieve a comment from Deezer with the id '5555' and a trivia fact about the year 2022.\nBegin!",
+    "tools": [
+      "listquotes_for_currency_exchange",
+      "exchange_for_currency_exchange",
+      "editorial_for_deezer",
+      "comment_for_deezer",
+      "playlist_for_deezer"
+    ],
+    "trajectory": [
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: listquotes_for_currency_exchange\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "listquotes_for_currency_exchange",
+        "content": "{\"error\": \"\", \"response\": \"[\\\"SGD\\\",\\\"MYR\\\",\\\"EUR\\\",\\\"USD\\\",\\\"AUD\\\",\\\"JPY\\\",\\\"CNH\\\",\\\"HKD\\\",\\\"CAD\\\",\\\"INR\\\",\\\"DKK\\\",\\\"GBP\\\",\\\"RUB\\\",\\\"NZD\\\",\\\"MXN\\\",\\\"IDR\\\",\\\"TWD\\\",\\\"THB\\\",\\\"VND\\\"]\"}"
+      },
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: exchange_for_currency_exchange\nAction Input: {\n  \"is_from\": \"EUR\",\n  \"to\": \"GBP\"\n}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "exchange_for_currency_exchange",
+        "content": "{\"error\": \"\", \"response\": \"0.8595207394000001\"}"
+      }
+    ],
+    "trajectory_length": 4
+  },
+  {
+    "query": "I need the exchange rate from EUR to GBP. Additionally, retrieve a comment from Deezer with the id '5555' and a trivia fact about the year 2022.\nBegin!",
+    "tools": [
+      "listquotes_for_currency_exchange",
+      "exchange_for_currency_exchange",
+      "editorial_for_deezer",
+      "comment_for_deezer",
+      "playlist_for_deezer"
+    ],
+    "trajectory": [
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: listquotes_for_currency_exchange\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "listquotes_for_currency_exchange",
+        "content": "{\"error\": \"\", \"response\": \"[\\\"SGD\\\",\\\"MYR\\\",\\\"EUR\\\",\\\"USD\\\",\\\"AUD\\\",\\\"JPY\\\",\\\"CNH\\\",\\\"HKD\\\",\\\"CAD\\\",\\\"INR\\\",\\\"DKK\\\",\\\"GBP\\\",\\\"RUB\\\",\\\"NZD\\\",\\\"MXN\\\",\\\"IDR\\\",\\\"TWD\\\",\\\"THB\\\",\\\"VND\\\"]\"}"
+      },
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: exchange_for_currency_exchange\nAction Input: {\n  \"is_from\": \"EUR\",\n  \"to\": \"GBP\"\n}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "exchange_for_currency_exchange",
+        "content": "{\"error\": \"\", \"response\": \"0.8595207394000001\"}"
+      },
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: comment_for_deezer\nAction Input: {\n  \"is_id\": \"5555\"\n}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "comment_for_deezer",
+        "content": "{\"error\": \"Message error...\", \"response\": \"{'error': {'type': 'InvalidQueryException', 'message': 'Unknown path components : /Invalid class comment', 'code': 600}}\"}"
+      }
+    ],
+    "trajectory_length": 6
+  },
+  {
+    "query": "I need the exchange rate from EUR to GBP. Additionally, retrieve a comment from Deezer with the id '5555' and a trivia fact about the year 2022.\nBegin!",
+    "tools": [
+      "listquotes_for_currency_exchange",
+      "exchange_for_currency_exchange",
+      "editorial_for_deezer",
+      "comment_for_deezer",
+      "playlist_for_deezer"
+    ],
+    "trajectory": [
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: listquotes_for_currency_exchange\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "listquotes_for_currency_exchange",
+        "content": "{\"error\": \"\", \"response\": \"[\\\"SGD\\\",\\\"MYR\\\",\\\"EUR\\\",\\\"USD\\\",\\\"AUD\\\",\\\"JPY\\\",\\\"CNH\\\",\\\"HKD\\\",\\\"CAD\\\",\\\"INR\\\",\\\"DKK\\\",\\\"GBP\\\",\\\"RUB\\\",\\\"NZD\\\",\\\"MXN\\\",\\\"IDR\\\",\\\"TWD\\\",\\\"THB\\\",\\\"VND\\\"]\"}"
+      },
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: exchange_for_currency_exchange\nAction Input: {\n  \"is_from\": \"EUR\",\n  \"to\": \"GBP\"\n}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "exchange_for_currency_exchange",
+        "content": "{\"error\": \"\", \"response\": \"0.8595207394000001\"}"
+      },
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: comment_for_deezer\nAction Input: {\n  \"is_id\": \"5555\"\n}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "comment_for_deezer",
+        "content": "{\"error\": \"Message error...\", \"response\": \"{'error': {'type': 'InvalidQueryException', 'message': 'Unknown path components : /Invalid class comment', 'code': 600}}\"}"
+      },
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: get_year_fact_for_numbers\nAction Input: {\n  \"year\": \"2022\"\n}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "get_year_fact_for_numbers",
+        "content": "{\"error\": \"\", \"response\": \"{'text': 'Germany plans to phase out the last of its nuclear power plants', 'number': 2022, 'found': True, 'type': 'year'}\"}"
+      }
+    ],
+    "trajectory_length": 8
+  },
+  {
+    "query": "I'm organizing a science-themed event for kids and need some jokes related to marine life to entertain them. Can you fetch all the available manatee jokes? Also, provide a random quote to inspire the ",
+    "tools": [
+      "v1_jokes_for_jokes_by_api_ninjas",
+      "quote_for_quotes",
+      "get_by_id_for_manatee_jokes",
+      "random_for_manatee_jokes",
+      "find_all_for_manatee_jokes"
+    ],
+    "trajectory": [
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: find_all_for_manatee_jokes\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "find_all_for_manatee_jokes",
+        "content": "{\"error\": \"\", \"response\": \"[{'id': 1, 'setup': 'What is the preferred beverage of British whales?', 'punchline': 'Earl Grey manatea', 'createdAt': '2020-12-23T19:40:08.000Z', 'updatedAt': '2020-12-23T19:40:08.000Z'}, {'id': 2, 'setup': 'What do you call undersea sporting enthusiasts?', 'punchline': "
+      }
+    ],
+    "trajectory_length": 2
+  },
+  {
+    "query": "I'm organizing a science-themed event for kids and need some jokes related to marine life to entertain them. Can you fetch all the available manatee jokes? Also, provide a random quote to inspire the ",
+    "tools": [
+      "v1_jokes_for_jokes_by_api_ninjas",
+      "quote_for_quotes",
+      "get_by_id_for_manatee_jokes",
+      "random_for_manatee_jokes",
+      "find_all_for_manatee_jokes"
+    ],
+    "trajectory": [
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: find_all_for_manatee_jokes\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "find_all_for_manatee_jokes",
+        "content": "{\"error\": \"\", \"response\": \"[{'id': 1, 'setup': 'What is the preferred beverage of British whales?', 'punchline': 'Earl Grey manatea', 'createdAt': '2020-12-23T19:40:08.000Z', 'updatedAt': '2020-12-23T19:40:08.000Z'}, {'id': 2, 'setup': 'What do you call undersea sporting enthusiasts?', 'punchline': "
+      },
+      {
+        "role": "assistant",
+        "content": "Thought: \nAction: quote_for_quotes\nAction Input: {}",
+        "tool_calls": []
+      },
+      {
+        "role": "function",
+        "name": "quote_for_quotes",
+        "content": "{\"error\": \"\", \"response\": \"{'quote': 'An Apple a day keeps you busy anyway', 'author': 'Sahil'}\"}"
+      }
+    ],
+    "trajectory_length": 4
+  }
+]

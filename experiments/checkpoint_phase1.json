@@ -1,0 +1,371 @@
+{
+  "results": [
+    {
+      "query": "Which sensors are deployed in Area E and what is their online status?",
+      "success": true,
+      "error": null,
+      "elapsed": 3.19
+    },
+    {
+      "query": "Show the online rate of electronic pulse sensors in Area A",
+      "success": true,
+      "error": null,
+      "elapsed": 3.07
+    },
+    {
+      "query": "Show all alarm events in Main Building last month",
+      "success": true,
+      "error": null,
+      "elapsed": 4.92
+    },
+    {
+      "query": "How many cameras are in Area D?",
+      "success": true,
+      "error": null,
+      "elapsed": 2.44
+    },
+    {
+      "query": "Analyze the alarm event distribution by time of day",
+      "success": true,
+      "error": null,
+      "elapsed": 2.88
+    },
+    {
+      "query": "Which region has the most cameras installed?",
+      "success": true,
+      "error": null,
+      "elapsed": 3.79
+    },
+    {
+      "query": "Show me the online rate trend by device type",
+      "success": true,
+      "error": null,
+      "elapsed": 6.73
+    },
+    {
+      "query": "How many cameras are in Area C?",
+      "success": true,
+      "error": null,
+      "elapsed": 2.62
+    },
+    {
+      "query": "What is the online rate of cameras deployed in Main Building?",
+      "success": true,
+      "error": null,
+      "elapsed": 4.26
+    },
+    {
+      "query": "What is the online rate of electronic pulse sensors deployed in Area A?",
+      "success": true,
+      "error": null,
+      "elapsed": 4.52
+    },
+    {
+      "query": "What is the average handling time for cross-border alarm?",
+      "success": true,
+      "error": null,
+      "elapsed": 12.42
+    },
+    {
+      "query": "Show all alarm events in Parking Lot last month",
+      "success": true,
+      "error": null,
+      "elapsed": 9.15
+    },
+    {
+      "query": "Show devices installed in October 2025",
+      "success": true,
+      "error": null,
+      "elapsed": 2.21
+    },
+    {
+      "query": "List alarm events for cameras in Area A last month",
+      "success": true,
+      "error": null,
+      "elapsed": 5.03
+    },
+    {
+      "query": "List the cross-border alarm events in Area B",
+      "success": true,
+      "error": null,
+      "elapsed": 5.67
+    },
+    {
+      "query": "Which device type has the most consistent performance?",
+      "success": true,
+      "error": null,
+      "elapsed": 12.63
+    },
+    {
+      "query": "Show offline events in Perimeter",
+      "success": true,
+      "error": null,
+      "elapsed": 7.3
+    },
+    {
+      "query": "Show all alarm events in Perimeter last month",
+      "success": true,
+      "error": null,
+      "elapsed": 8.22
+    },
+    {
+      "query": "Show the alarm closure rate by device type",
+      "success": true,
+      "error": null,
+      "elapsed": 6.48
+    },
+    {
+      "query": "Compare device deployment between perimeter and main building",
+      "success": true,
+      "error": null,
+      "elapsed": 5.94
+    },
+    {
+      "query": "What is the hourly distribution of security alarm events?",
+      "success": true,
+      "error": null,
+      "elapsed": 4.49
+    },
+    {
+      "query": "What is the online rate of electronic pulse sensors deployed in Area B?",
+      "success": true,
+      "error": null,
+      "elapsed": 4.59
+    },
+    {
+      "query": "What is the online rate of sensors in Area E?",
+      "success": true,
+      "error": null,
+      "elapsed": 4.85
+    },
+    {
+      "query": "List the online status of all electronic pulse sensor devices",
+      "success": true,
+      "error": null,
+      "elapsed": 2.29
+    },
+    {
+      "query": "How many vibration fibers are in Area B?",
+      "success": true,
+      "error": null,
+      "elapsed": 4.67
+    },
+    {
+      "query": "How many electronic pulse sensors are in Area E?",
+      "success": true,
+      "error": null,
+      "elapsed": 2.95
+    },
+    {
+      "query": "List the online status of all vibration fiber devices",
+      "success": true,
+      "error": null,
+      "elapsed": 3.9
+    },
+    {
+      "query": "Compare the online rate of vibration fibers and electronic pulse sensors",
+      "success": true,
+      "error": null,
+      "elapsed": 3.36
+    },
+    {
+      "query": "What is the total alarm count for zone alarm?",
+      "success": true,
+      "error": null,
+      "elapsed": 4.3
+    },
+    {
+      "query": "What is the average response time for alarms in Perimeter?",
+      "success": true,
+      "error": null,
+      "elapsed": 18.19
+    },
+    {
+      "query": "How many electronic pulse sensors are in Parking Lot?",
+      "success": true,
+      "error": null,
+      "elapsed": 2.75
+    },
+    {
+      "query": "Show the deployment density of electronic pulse sensors across regions",
+      "success": true,
+      "error": null,
+      "elapsed": 2.57
+    },
+    {
+      "query": "What is the average response time for alarms in Area B?",
+      "success": true,
+      "error": null,
+      "elapsed": 8.77
+    },
+    {
+      "query": "List the zone alarm events in Area A",
+      "success": true,
+      "error": null,
+      "elapsed": 5.52
+    },
+    {
+      "query": "Show the alarm events trend over the past month",
+      "success": true,
+      "error": null,
+      "elapsed": 3.9
+    },
+    {
+      "query": "Show the cross-region comparison of alarm event counts",
+      "success": true,
+      "error": null,
+      "elapsed": 9.42
+    },
+    {
+      "query": "List the zone alarm events in Area B",
+      "success": true,
+      "error": null,
+      "elapsed": 4.82
+    },
+    {
+      "query": "Show the top 10 devices with most alarm events",
+      "success": true,
+      "error": null,
+      "elapsed": 4.5
+    },
+    {
+      "query": "Show the top 3 offline devices",
+      "success": true,
+      "error": null,
+      "elapsed": 7.53
+    },
+    {
+      "query": "Compare the false alarm rates among different sensor types",
+      "success": true,
+      "error": null,
+      "elapsed": 10.69
+    },
+    {
+      "query": "How many electronic pulse sensors are in Area B?",
+      "success": true,
+      "error": null,
+      "elapsed": 2.78
+    },
+    {
+      "query": "What is the installation time distribution of sensors?",
+      "success": true,
+      "error": null,
+      "elapsed": 5.54
+    },
+    {
+      "query": "List devices that have been offline for more than 12 hours",
+      "success": true,
+      "error": null,
+      "elapsed": 11.24
+    },
+    {
+      "query": "Which alarm type occurred most frequently?",
+      "success": true,
+      "error": null,
+      "elapsed": 3.13
+    },
+    {
+      "query": "List the 5 most frequently triggered electronic pulse sensors",
+      "success": true,
+      "error": null,
+      "elapsed": 5.39
+    },
+    {
+      "query": "Show the weekly alarm pattern for the past month",
+      "success": true,
+      "error": null,
+      "elapsed": 3.38
+    },
+    {
+      "query": "How many cameras are in Warehouse?",
+      "success": true,
+      "error": null,
+      "elapsed": 3.16
+    },
+    {
+      "query": "What is the online rate of electronic pulse sensors deployed in Perimeter?",
+      "success": true,
+      "error": null,
+      "elapsed": 4.89
+    },
+    {
+      "query": "Which vibration fiber in Perimeter has the highest false alarm rate?",
+      "success": true,
+      "error": null,
+      "elapsed": 10.07
+    },
+    {
+      "query": "Show the correlation between device online rate and alarm frequency",
+      "success": true,
+      "error": null,
+      "elapsed": 5.08
+    },
+    {
+      "query": "Which sensors are deployed in Area A and what is their online status?",
+      "success": true,
+      "error": null,
+      "elapsed": 3.15
+    },
+    {
+      "query": "How many vibration fibers are in Warehouse?",
+      "success": true,
+      "error": null,
+      "elapsed": 3.75
+    },
+    {
+      "query": "Show devices installed in September 2025",
+      "success": true,
+      "error": null,
+      "elapsed": 2.83
+    },
+    {
+      "query": "How many electronic pulse sensors are in Equipment Area?",
+      "success": true,
+      "error": null,
+      "elapsed": 2.07
+    },
+    {
+      "query": "List the vibration fiber event events in Area A",
+      "success": true,
+      "error": null,
+      "elapsed": 4.95
+    },
+    {
+      "query": "List the 3 most frequently triggered electronic pulse sensors",
+      "success": true,
+      "error": null,
+      "elapsed": 6.76
+    },
+    {
+      "query": "What is the online rate of sensors in Perimeter?",
+      "success": true,
+      "error": null,
+      "elapsed": 9.97
+    },
+    {
+      "query": "What is the peak time for security alarm events?",
+      "success": true,
+      "error": null,
+      "elapsed": 4.38
+    },
+    {
+      "query": "What are the top 5 sensors with the lowest online rate?",
+      "success": true,
+      "error": null,
+      "elapsed": 10.89
+    },
+    {
+      "query": "What is the average response time for alarms in Area A?",
+      "success": true,
+      "error": null,
+      "elapsed": 11.06
+    }
+  ],
+  "stats": {
+    "total_input_tokens": 6618,
+    "total_output_tokens": 30138,
+    "total_tokens": 36756,
+    "total_calls": 60,
+    "failed_calls": 0
+  }
+}
